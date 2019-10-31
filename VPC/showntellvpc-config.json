@@ -1,0 +1,55 @@
+[
+    {
+        "ParameterKey": "AvailabilityZones",
+        "ParameterValue": "ap-southeast-2a,ap-southeast-2b,ap-southeast-2c"
+    },
+    {
+        "ParameterKey": "NumberOfAZs",
+        "ParameterValue": "3"
+    },
+    {
+        "ParameterKey": "VpcCidr",
+        "ParameterValue": "10.11.0.0/16"
+    },
+    {
+        "ParameterKey": "VpcTenancy",
+        "ParameterValue": "default"
+    },
+    {
+        "ParameterKey": "DataSubnet0Cidr",
+        "ParameterValue": "10.11.100.0/24"
+    },
+    {
+        "ParameterKey": "DataSubnet1Cidr",
+        "ParameterValue": "10.11.101.0/24"
+    },
+    {
+        "ParameterKey": "DataSubnet2Cidr",
+        "ParameterValue": "10.11.102.0/24"
+    },
+    {
+        "ParameterKey": "PublicSubnet0Cidr",
+        "ParameterValue": "10.11.200.0/24"
+    },
+    {
+        "ParameterKey": "PublicSubnet1Cidr",
+        "ParameterValue": "10.11.201.0/24"
+    },
+    {
+        "ParameterKey": "PublicSubnet2Cidr",
+        "ParameterValue": "10.11.202.0/24"
+    },
+    {
+        "ParameterKey": "WebSubnet0Cidr",
+        "ParameterValue": "10.11.0.0/22"
+    },
+    {
+        "ParameterKey": "WebSubnet1Cidr",
+        "ParameterValue": "10.11.4.0/22"
+    },
+    {
+        "ParameterKey": "WebSubnet2Cidr",
+        "ParameterValue": "10.11.8.0/22"
+    }
+
+]
