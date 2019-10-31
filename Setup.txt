@@ -1,10 +1,11 @@
 Steps to configure foundations
 
-1. Spin up Cloud9 environment as DevSetup (unless local machine is used)
+1. Spin up Cloud9 environment (in Singapore) as DevSetup (unless local machine is used)
+2. aws configure >> set to ap-southeast-2
 2. Clone the git repo
 3. Create VPC: aws cloudformation create-stack --stack-name vpc1showntell --template-body file://showntellvpc.yaml --parameters file://showntellvpc-config.json --capabilities CAPABILITY_IAM --region ap-southeast-2 --disable-rollback
 4. Create Keypair
 5. Create Security Group of Bastion Host using "securitygroups.yaml"
 6. Create 2 x 3 bastion hosts using "bastionec2.yaml"
-7. Create accounts for NCR team
+7. Create accounts for team
 8. Test SSH access to bastion hosts
